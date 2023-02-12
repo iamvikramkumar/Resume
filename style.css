@@ -18,9 +18,14 @@
   overflow-x: hidden;
 }
 
-.container {
+/* .container {
   width: 1200px;
   margin: 0 auto;
+}      AUTO FIT ON ANY SCREEN SIZE  */
+.container {
+  width: 90%;
+  min-width: 500px;
+  margin: auto;
 }
 
 .navbar {
